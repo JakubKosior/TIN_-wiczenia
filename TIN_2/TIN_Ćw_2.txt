@@ -1,0 +1,43 @@
+console.log("Hello, world!");
+
+
+
+console.log("\n");
+
+for (let i=0; i<=10; i++) {
+    console.log(i);
+}
+
+
+
+console.log("\n");
+
+let a = 1;
+while (a <= 10) {
+    console.log(a);
+    a++;
+}
+
+
+
+console.log("\n");
+
+
+let b = 8
+if (b < 10) {
+  console.log("Prawda");
+}
+
+
+
+console.log("\n");
+
+const tablica = ["Pies", "Kot", "Ślimak", "Ptak"];
+console.log(tablica);
+
+
+
+
+console.log("\n");
+
+tablica.forEach(funkcja=>console.log(funkcja));
